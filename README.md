@@ -4,12 +4,20 @@
 - Optimized a Random Forest regressor using GridSearchCV to reach the model
 
 # Data Cleaning and Feature Engineering
-- Replaced any dimensional data with a value of zero with a null value
+- Replaced empty values in TotalCharges column with a null value
 - Dropped all rows with null values
-- Added a new column, Volume, which multiplied the X, Y, and Z dimensional values together
-- Made new column, Ratio, which divided the X dimension by the Y dimension
-- Added dummy variables for the categorical columns
-- Normalized the numerical columns
+- Converted all columns with integer values into float values
+- Replaced all values with 'No internet service' or 'No phone service' into 'No' for simplicity
+- Dropped id column
+- Added a new column, TC_to_ten_ratio, which divided a customer's total charges by their tenure
+- Made new dummy columns for age, divided into five different age groups
+- Added a total_services column, which summed all the different services a customer had with Telco
+- Label encoded categorical columns with only two distinct values
+- Created dummy variables for categorical columns with more than two distinct values
+- Converted churn column from yes/no to 1/0
+- Scaled the numerical columns
+
+# Data Visualisation
 
 # Model Building
 #### I tried 7 different models and compared them based on Mean Absolute Error ####
