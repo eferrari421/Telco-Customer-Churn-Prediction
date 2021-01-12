@@ -20,11 +20,11 @@
 # Data Visualisation
 
 # Model Building
-#### I tried 7 different models and compared them based on Mean Absolute Error ####
-- Linear Regression: MAE = 721.9
-- Lasso Regression: MAE = 824.8
-- Ridge Regression: MAE = 815.9
-- Decision Tree: MAE = 356.6
-- Random Forest: MAE = 269.2
--Support Vector Machine: MAE = 1059.4
-- K Nearest Neighbors: MAE = 445.2
+#### I tried 6 different models and compared them based on F1 score ####
+- Logistic Regression: F1 = 0.59
+- Naive Bayes: F1 = 0.64
+- K Nearest Neighbors: F1 = 0.55
+- Decision Tree: F1 = 0.47
+- Random Forest: F1 = 0.58
+- Support Vector Machine: F1 = 0.57
+
