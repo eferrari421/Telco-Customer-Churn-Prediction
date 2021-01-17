@@ -18,6 +18,11 @@
 - Scaled the numerical columns
 
 # Data Visualisation
+![](telco_images/download.png)
+![](telco_images/download-1.png)
+![](telco_images/download-2.png)
+![](telco_images/download-3.png)
+![](telco_images/download-4.png)
 
 # Model Building
 #### I tried 6 different models and compared them based on F1 score ####
