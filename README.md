@@ -1,7 +1,7 @@
 # Telco Customer Churn Prediction: Project Overview 
 - Created a tool that predicts whether or not a customer will churn from Telco
 - Engineered two new features, volume and ratio, from the given features
-- Optimized a Random Forest regressor using GridSearchCV to reach the model
+- Optimized a Naive Bayes classifier using GridSearchCV to reach the model
 
 # Data Cleaning and Feature Engineering
 - Replaced empty values in TotalCharges column with a null value
